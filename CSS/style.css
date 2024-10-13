@@ -1,0 +1,579 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0e0e0e;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: rgba(255, 251, 251, 0.336);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+.header-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 2rem;
+    width: 0%;
+    margin-left: 13%;
+}
+
+nav{
+    display: flex; 
+    justify-content: end;
+    margin-right: 4%;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li {
+    cursor: pointer;
+}
+
+header img {
+    width: 55%;
+    float: left;
+}
+
+ul a {
+    color: rgb(170, 14, 14);
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.image1 article{
+   margin-top: 20%;
+}
+.image1 h1, .image1 h2{
+    font-size: 66px
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image1 {
+    background-image: url('/IMG/f38e1822bbfa446f9ccc75a875c454be.gif');
+    font-family: "Monofett";
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    font-size: 40px;
+} 
+
+
+.image2 {
+    background-image: url('/IMG/arrire-plan-frame2.webp');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    font-size: 35px;
+}
+
+#image3 {
+    background-image: url('/IMG/arrire-plan-frame3.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    font-size: 40px;
+}
+
+.image4 {
+    background-image: url('/IMG/arrire-plan-frame4.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    font-size: 40px;
+}
+
+.image5 {
+    background-image: url('/IMG/arrire-plan-frame5.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    font-size: 40px;
+}
+
+.image6 {
+    background-image: url('/IMG/arrire-plan-frame6.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    font-size: 20px;
+}
+
+
+#profile {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+}
+
+.profile-content img {
+    border-radius: 50%;
+    width: 4%;
+}
+
+.qualities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.qualities ul li {
+    margin: 10px 0;
+}
+
+.image3 div{
+    float: right;
+    margin-top: 15%;
+}
+
+.lepoles{
+    margin-top: 8%;
+}
+
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+#skills ul li i {
+    font-size: 30px; 
+}
+
+#skills ul li {
+    background-color: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#skills ul li:hover {
+    background-color: #444;
+}
+
+.fa-html5 {
+    color: #e34f26;
+}
+
+.fa-css3-alt {
+    color: #2965f1;
+}
+
+.fa-js {
+    color: #f7df1e;
+}
+
+.fa-github {
+    color: #333;
+}
+
+.fa-database {
+    color: #00758f;
+}
+
+.fa-php {
+    color: #777bb3;
+}
+.cv {
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+    flex-direction:column;
+}
+
+.cv img {
+    max-width: 15%; 
+    height: auto; 
+    border-radius: 15px; 
+}
+
+.download-cv {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.download-cv button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.download-cv button:hover {
+    background-color: #0056b3; 
+}
+
+#projects .project img {
+    width: 27%;
+    margin: 0 auto;
+    display: block;
+     border: red solid 2px;
+}
+
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    margin-left: 5%;
+}
+.formulaire{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.formulaire form button{
+    width: 25%;
+    margin: auto;
+}
+#contact form label {
+    align-self: flex-start;
+}
+
+#contact form input, 
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+#contact form textarea {
+    resize: none;
+}
+
+form p {
+    color: red;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.perso{
+    float: left;
+    border: #0e0e0e solid 3px;
+}
+
+
+i {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #0e0e0e;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    header img {
+        width: 55%;
+    }
+
+    header h1 {
+        font-size: 1.8rem; 
+        margin-right: 138px;
+    }
+
+    
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        height: 1200px;
+        font-size: 20px;
+    }
+
+    nav.active ul {
+        display: flex;
+    }
+
+    .image1 article {
+        margin-top: 30%;
+        font-size: 24px; 
+    }
+
+    .profile-content img {
+        width: 12%;
+    }
+
+    .cv img {
+        max-width: 30%;
+    }
+
+    #skills ul {
+        flex-direction: column;
+    }
+
+    .download-cv button {
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    #contact form {
+        width: 60%;
+    }
+
+    .formulaire {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .formulaire form button {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    
+    header {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .header-content{
+        flex-direction: column;
+    }
+
+    header img {
+        width: 55%;
+    }
+
+    header h1 {
+        font-size: 1.5rem; 
+        margin-right: 89px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav{
+        justify-content:center;
+    }
+    
+    .image1 article {
+        margin-top: 40%;
+        font-size: 20px;
+    }
+
+    .image1, .image2, .image3, .image4, .image5, .image6 {
+        height: 1200px;
+        font-size: 20px;
+    }
+
+    a i {
+        font-size: 20px;
+    }
+
+    .profile-content img {
+        width: 20%;
+    }
+
+    .cv img {
+        max-width: 60%;
+    }
+    #skills ul {
+        flex-direction: column;
+    }
+
+    .download-cv button {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    #contact form {
+        width: 80%;
+    }
+
+    .formulaire {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .formulaire form button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header a{
+        margin: auto;
+    }
+    header h1 {
+        margin-right: 40%;
+    }
+    header a{
+        margin-right: 26%;
+    }
+    nav{
+        margin-right: 8%;
+    }
+
+    .image1 h1, .image1 h2{
+        font-size: 55px;
+    }
+    .image1 article{
+        margin-top: 21rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    header a{
+        margin-left: 2%;
+        width: 10%;
+    }
+
+    header h1{
+        font-size: 74px;
+        margin-left: 205px;
+    }
+
+    header{
+        height: 10%;
+    }
+
+    nav ul{
+        font-size: 32px;
+    }
+
+    .image1 h1, .image1 h2{
+        font-size: 144px;
+    }
+
+    .image1 i{
+        font-size: 63px;
+    }
+
+    .image2{
+        font-size: 65px;
+    }
+
+    .image2 i{
+        font-size: 65px;
+    }
+
+    #image3 h2{
+        margin-top: 8%;
+    }
+
+    #image3 {
+        font-size: 70px;
+    }
+
+    #image3 .lepoles {
+        width: 28%;
+    }
+
+    #image3 i{
+        margin-top: 5%;
+        font-size: 70px;
+    }
+
+    .image4{
+        font-size: 77px;
+    }
+
+    .cv img{
+        width: 74%;
+    }
+
+    .download-cv button {
+        width: 20%;
+        font-size: 3rem;
+    }
+    
+    .image5{
+        font-size: 77px;
+    }
+
+    .image5 h2{
+        margin-top: 14%;
+    }
+
+    .image5 i{
+        margin-top: 5%;
+        font-size: 65px;
+    }
+
+    .image6{
+        
+        font-size: 67px;
+    }
+
+    .image6 div form input{
+        font-size: 10px;
+    }
+
+    #contactForm button {
+        width: 31%;
+        font-size: 3rem;
+    }
+    footer{
+        font-size: 35px;
+    }
+    
+}
